@@ -34,7 +34,7 @@
 	<project name="android_device_xiaomi_wayne" path="device/xiaomi/wayne" remote="sdm660" revision="havoc"/>
 
   <!-- jasmine -->
-	<project name="android_device_xiaomi_jasmine" path="device/xiaomi/jasmine" remote="sdm660" revision="havoc"/>
+	<project name="android_device_xiaomi_jasmine_sprout" path="device/xiaomi/jasmine_sprout" remote="sdm660" revision="havoc"/>
 
   <!-- clover -->
 	<project name="android_device_xiaomi_clover" path="device/xiaomi/clover" remote="sdm660" revision="havoc"/>
@@ -44,7 +44,7 @@
 
   <!-- vendor -->
 	<project name="android_vendor_xiaomi_clover" path="vendor/xiaomi/clover" remote="sdm660" revision="master" />
-	<project name="android_vendor_xiaomi_jasmine" path="vendor/xiaomi/jasmine" remote="sdm660" revision="master" />
+	<project name="android_vendor_xiaomi_jasmine_sprout" path="vendor/xiaomi/jasmine_sprout" remote="sdm660" revision="master" />
 	<project name="android_vendor_xiaomi_wayne" path="vendor/xiaomi/wayne" remote="sdm660" revision="master" />
 	
 	<project name="android_vendor_xiaomi_Miuicamera" path="vendor/xiaomi/MiuiCamera" remote="sdm660" revision="master" />
