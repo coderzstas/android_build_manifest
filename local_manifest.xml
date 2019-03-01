@@ -7,10 +7,13 @@
    <remote  name="sdm660"
            fetch="ssh://git@github.com/xiaomi-sdm660/"/>
 
+   <remote  name="local"
+           fetch="https://github.com/coderzstas/"/>
+
 <!-- BUILD MANIFEST -->
 
-	<project name="android_build_manifest" path="repo/local_manifest" remote="sdm660" revision="havoc_xiaomi" >
-	<linkfile src="xiaomi_manifest.xml" dest="repo/local_manifest/local_manifest.xml"/>
+	<project name="android_build_manifest" path="repo/local_manifest" remote="local" revision="pie" >
+	<linkfile src="local_manifest.xml" dest="repo/local_manifest/local_manifest.xml"/>
 	</project>
 
 <!-- BUILD MANIFEST -->
@@ -24,13 +27,13 @@
 	<project name="android_kernel_xiaomi_sdm660" path="kernel/xiaomi/sdm660" remote="sdm660" revision="master"/>
 
   <!-- jasmine -->
-	<project name="android_device_xiaomi_jasmine" path="device/xiaomi/jasmine" remote="sdm660" revision="pie"/>
+	<project name="android_device_xiaomi_jasmine" path="device/xiaomi/jasmine" remote="local" revision="pie"/>
 
   <!-- Common -->
-	<project name="android_device_xiaomi_sdm660-common" path="device/xiaomi/sdm660-common" remote="sdm660" revision="pie"/>
+	<project name="android_device_xiaomi_sdm660-common" path="device/xiaomi/sdm660-common" remote="local" revision="pie"/>
 
   <!-- vendor -->
-	<project name="android_vendor_xiaomi_jasmine" path="vendor/xiaomi/jasmine" remote="sdm660" revision="master" />
+	<project name="android_vendor_xiaomi_jasmine" path="vendor/xiaomi/jasmine" remote="local" revision="master" />
 
 	<project name="android_vendor_xiaomi_Miuicamera" path="vendor/xiaomi/MiuiCamera" remote="sdm660" revision="master" />
 </manifest>
