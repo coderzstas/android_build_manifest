@@ -5,7 +5,7 @@
            fetch="https://github.com/LineageOS/"/>
 
    <remote  name="sdm660"
-           fetch="ssh://git@github.com/xiaomi-sdm660/"/>
+           fetch="https://github.com/xiaomi-sdm660/"/>
 
    <remote  name="local"
            fetch="https://github.com/coderzstas/"/>
